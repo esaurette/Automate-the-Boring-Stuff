@@ -1,0 +1,15 @@
+import random
+
+messages = ['It is certain', 'It is decidedly so', 'Yes definitely', 'Reply hazy, try again',\
+            'Ask again later', 'Concentrate and ask again','My reply is no', 'No bitch']
+print('Ask a question if you dare')
+
+question = input()
+
+while question != "":
+    print(messages[random.randint(0, len(messages)-1)])
+    print('Ask another question, or hit enter')
+    question = input()
+
+if question == "":
+    print('Does not seem you had a question, goodbye')
