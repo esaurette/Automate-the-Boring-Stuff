@@ -3,7 +3,6 @@
 import random, sys
 secretNumber = random.randint(1, 20)
 print('I am thinking of a number between 1 and 20. You have six guesses, after three guesses I will give you a hint if you havent already guessed correctly. Goodluck.')
-print('PST it is' +str(secretNumber))
 
 # Ask the player to guess 3 times
 guess=[]
